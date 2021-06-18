@@ -43,7 +43,6 @@ class App extends React.Component{
     
 
     render(){
-        console.log(this.state.income, this.state.expense)
         return(
             <div className="container">
                 <div className="budget_lable">

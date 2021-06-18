@@ -19,21 +19,25 @@ const  IncomeLable=(props)=> {
             }  
             return 0;
         })
-        return newincome-expense;
+        const budgetValue = newincome-expense;
+        return {
+            budgetValue,
+            newincome, expense
+        }
     }    
-    const budgetValue = budget();
+    const totalBudget = budget();
     return (
         <div className="budget_container">
                 <div className="budget-desc">
                     <div className="budget-earned">
-                        Total Earned
+                        Total Income {totalBudget.newincome}
                     </div>
                     <div className="budget-expense">
-                        Total Expense
+                        Total Expense  {totalBudget.expense}
                     </div>
                 </div>
                 <div className="budget-lable" >
-                    Budget  {budgetValue}
+                    Budget  {totalBudget.budgetValue}
                 </div>
         </div>
     )
