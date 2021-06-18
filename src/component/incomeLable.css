@@ -1,0 +1,22 @@
+
+.budget_container{
+    /* font-size: 2.5rem; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.budget-desc{
+    display: flex;
+    padding: 20px 20px;
+    align-self: stretch;
+}
+.budget-earned{
+    margin-right: 20px;
+    margin-left: -2rem;
+}
+.budget-fine{
+    background-color: yellowgreen;
+}
+.budget-warning{
+    background-color: red;
+}

@@ -1,0 +1,73 @@
+.form-section{
+    margin-top: 4rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;    
+}
+.input-section{
+    display: flex;
+    align-items: center;
+    font-size: inherit;
+    margin-right: 8rem;
+    /* align-self   : stretch; */
+}
+.form-details{
+    display: flex;
+    justify-content: space-around;
+    margin-right: auto;
+}
+
+.btn{
+    padding: .6rem;
+    border-radius: 10%;
+    transition: all .2s;
+    cursor: pointer;
+}
+.btn:active{
+    transform: scale(1.04) translateY(-.1rem);
+    box-shadow:  0 2rem 3rem rgba(0,0,0,.3)
+}
+.income-btn{
+    margin-right: 3rem;
+    background-color: rgb(120, 168, 120);
+}
+.income-btn:hover{
+    background-color: rgb(5, 131, 5);
+}
+.expense-btn{
+    background-color: rgb(250, 104, 104);
+}
+.expense-btn:hover{
+    background-color: rgb(221, 2, 2);
+}
+button{
+    outline: none;
+    border: none;
+}
+input{
+    outline: none;
+    border: none;
+    padding: .7rem 2rem;
+    border-radius: 10rem;
+    height: 100%;
+}
+input:focus{
+    outline: none;
+    border: none;
+    background-color: rgb(218, 214, 214);
+}
+
+.form-details input{
+    margin-right: 5rem;
+}
+.form-submit{
+    border-radius: 10rem;
+}
+.back-red{
+    background-color: rgb(221, 2, 2);
+    transition: all .2s;
+}
+.back-green{
+    background-color: rgb(5, 131, 5);
+    transition: all .2s;
+}

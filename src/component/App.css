@@ -1,0 +1,48 @@
+.container{
+    width: 120rem;
+    margin: 0 auto;
+    font-size: 2rem;
+}
+.list{
+    margin-top: 5rem;
+    display: flex;
+    align-items: stretch;
+    transition: all .2s;
+    background-color: #9d8d8d;
+    height: auto;
+    border-radius: 6px;
+    padding: 1rem;
+}
+.inc-list{
+    flex-basis:  40%;
+    margin-right: 18%;
+}
+.exp-list{
+    flex-basis: 40%;
+}
+.wrapper{
+    margin-top: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 2rem;
+    border-bottom: 1px solid black;
+}
+.wrapper-desc{
+    margin-right: auto
+}
+.wrapper-value{
+    margin-right:18rem;
+}
+.delete{
+    transition: all .2s;
+    cursor: pointer;
+}
+.delete:hover{
+    color: red;
+}
+.desc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
